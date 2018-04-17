@@ -1,0 +1,176 @@
+@media screen and (max-width: 900px) {
+
+  /*
+   * Congratulations popup
+   */
+
+  .success table {
+    padding-left: 0;
+  }
+
+  .success h1 {
+    margin: 0 0 0 3em;
+  }
+  .success .restart {
+    font-size: 2em;
+    display: inline-flex;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    padding: 24px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  /*
+   * Score panel
+   */ 
+
+   .score-panel {
+    text-align: left;
+    width: 380px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+  /*
+   * Main deck
+   */
+
+  .deck {
+    width: 400px;
+    min-height: 420px;
+    padding: 20px;
+  }
+
+  .deck .card {
+    height: 80px;
+    width: 80px;
+  }
+
+  .deck .card.show {
+    font-size: 18px;
+  }
+  
+  /*
+   * success masg
+  */
+
+  .success {
+    font-size: 0.8em;
+  }
+
+  .success h1 {
+    margin: 0 0 0 3em;
+  }
+
+  .success table {
+    padding-left: 0;
+  }
+
+  #start-image img {
+    width: 100%;
+  }
+
+  .success .restart {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    padding: 24px;
+  }
+  
+@media screen and (max-width: 450px) {
+
+  .material-icons {
+    font-size: 24px;
+  }
+
+  /*
+   * Main deck
+   */
+
+  .deck {
+    width: 300px;
+    min-height: 310px;
+    box-shadow: 6px 7px 10px 0 rgba(46, 61, 73, 0.5);
+    padding: 10px;
+  }
+
+  .deck .card {
+    height: 60px;
+    width: 60px;
+  }
+
+  .deck .card.show {
+    font-size: 18px;
+  }
+
+  .score-panel {
+    padding: 0 0 0 1em;
+  }
+
+  /*
+   * Score panel
+  */ 
+
+   .score-panel {
+    text-align: left;
+    width: 280px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+  .score-panel .restart {
+    float: right;
+    cursor: pointer;
+  }
+  
+  .score-panel .timer {
+    margin-left: 3em;
+  }
+
+  /*
+   * success masg
+  */
+
+  #start-image {
+    display: none;
+  }
+  
+  .win-popup {
+    padding: 1em 1em 0;
+  }
+  
+  .success {
+    width: 100%;
+  }
+
+  .success h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+  }
+
+  .success h2 {
+    font-size: 1em;
+    margin: 0;
+  }
+
+  .success table {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .success .restart {
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+    padding: 24px;
+  }
+
+  .success img {
+    width: 18px;
+  }
+
+}
