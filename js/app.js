@@ -7,7 +7,7 @@
     /*
         * Create a list the icone all of your cards
     */
-    const listOfCards = ["fa fa-diamond", "fa fa-paper-plane-o", "fa fa-anchor", "fa fa-bolt",
+    const cards = ["fa fa-diamond", "fa fa-paper-plane-o", "fa fa-anchor", "fa fa-bolt",
         "fa fa-cube", "fa fa-anchor", "fa fa-leaf", "fa fa-bicycle", "fa fa-diamond", "fa fa-bomb",
         "fa fa-leaf", "fa fa-bomb", "fa fa-bolt", "fa fa-bicycle", "fa fa-paper-plane-o", "fa fa-cube"];
 
@@ -58,7 +58,7 @@
     const cards = document.querySelectorAll('.deck li');
     const stars = starsPanel.querySelectorAll('li');
     const restartButton = document.querySelector('.restart');
-    const restartButtonPopup = document.querySelector('.success .restart')
+    const restartButtonPopup = document.querySelector('.success .restart');
     let startTime;
     let endTime;
     let timerInterval;
@@ -67,8 +67,6 @@
 
     addRandomSymbolToCard(cards);
     leaderBoardInit();
-
-  
 
     deckOfCards.addEventListener('click', function (evt) {
 
@@ -156,7 +154,7 @@
     }
 
     function addRandomSymbolToCard(array) {
-        let shuffleListOfCards = shuffle(listOfCards);
+        let shuffleListOfCards = shuffle(cards);
         for (i = 0; i < array.length; i++) {
             array[i].firstElementChild.className = shuffleListOfCards[i];
         }
@@ -225,7 +223,6 @@
     /*
      * Leader Board Storage
     */
-
 
     /* 
      * this section creates a new localstore file and put to it empty array,
