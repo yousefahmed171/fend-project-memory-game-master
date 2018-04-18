@@ -79,14 +79,14 @@ h1 {
 
 .deck .card.match {
     transform: rotateY(180deg);
-    transition: width 2s, height 2s, transform 0.8s;
+    transition: width 2s, height 2s, transform 4s;
     cursor: default;
     background: #02ccba;
     font-size: 33px;
 }
 .deck .card.close {
     transform: rotateY(0deg);
-    transition: width 2s, height 2s, transform 0.8s;
+    transition: width 1s, height 1s, transform 0.1s;
     background: #2e3d49;
 }
 

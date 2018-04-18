@@ -1,20 +1,36 @@
 # Memory Game Project
 
-## Table of Contents
+The game board consistors of sixteen "cards" arranged in a grid. The deck is made up of eight different pairs of cards, each with different symbols on one side. The cards are arranged randomly on the grid with the symbol face down. The gameplay rules are very simple: flip over two hidden cards at a time to locate the ones that match!
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+![img](img/game.png)
 
-## Instructions
+## How to download
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+* Clone using github link https://github.com/yousefahmed171/fend-project-memory-game-master.git 
+* Download in Desktop 
+![img](img/do.png)
 
-To get started, open `js/app.js` and start building out the app's functionality
+## Running locally
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+Please open up [index.html](index.html) in your browser to run the app
 
-## Contributing
+## How to play
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+Total allowed moves: <= 29 (3\*)  <=49 (2\*) >49 (1\*)
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+- Click a card to reveal
+- Click another card to reveal and match with card revealed in step 1
+- If the cards match, both cards stay open and locked
+- If the cards do not match, both cards are returned to their hidden state
+- The game ends once all cards have been correctly matched.
+
+## Code Structure
+
+* css
+* img
+* js
+* index.html
+
+## Dependencies
+
+*  [font-awesome](https://fontawesome.com).
